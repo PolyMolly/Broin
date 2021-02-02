@@ -1,0 +1,32 @@
+#game {
+  width: 1400px;
+  height: 700px;
+  border: 3px solid #111;
+  border-radius: 15px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+#gora_pasek {
+  height: 60px;
+  width: 100%;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.cofnij {
+  height: 60px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 12px;
+}
+
+.cofnij img {
+  height: 50px;
+}

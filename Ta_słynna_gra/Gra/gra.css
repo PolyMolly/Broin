@@ -1,0 +1,86 @@
+#game {
+    width: 1400px;
+    height: 700px;
+    border: 3px solid #111;
+    border-radius: 15px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  #gora_pasek {
+    height: 60px;
+    width: 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+  }
+  
+  .cofnij {
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 12px;
+  }
+  
+  .cofnij img {
+    height: 50px;
+  }
+  
+  #gablota_gier {
+    width: 1000px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    justify-content: space-between;
+  }
+  
+  #tekst {
+    margin: 10%;
+    color: #111;
+  }
+  
+  .gra_1 {
+    height: 100%;
+    align-self: left;
+    border: 3px solid #111;
+    border-radius: 13px;
+  }
+  .gra_1 img {
+    height: 200px;
+    padding-bottom: 30px;
+    border: 3px solid #111;
+  }
+  
+  .gra_2 {
+    height: 100%;
+    align-self: center;
+    border: 3px solid #111;
+    border-radius: 13px;
+  }
+  .gra_2 img {
+    height: 200px;
+    padding-bottom: 30px;
+    border: 3px solid #111;
+  }
+  
+  .gra_3 {
+    height: 100%;
+    align-self: right;
+    border: 3px solid #111;
+    border-radius: 13px;
+  }
+  .gra_3 img {
+    height: 200px;
+    padding-bottom: 30px;
+    border: 3px solid #111;
+  }
+  
